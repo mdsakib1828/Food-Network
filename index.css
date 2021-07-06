@@ -20,6 +20,7 @@ padding: 12px 16px;
 .navbar ul li a{
   text-decoration: none;
   font-weight: 300;
+  color: #444;
 }
 .navbar ul li:hover{
     background-color: yellow;
