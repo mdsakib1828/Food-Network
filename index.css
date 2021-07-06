@@ -33,6 +33,7 @@ body{
     border-radius: 50px;
     color: #fff;
     border: none;
+    cursor: pointer;
     background-image: linear-gradient(green,yellow);
 }
 .column-right {
@@ -79,3 +80,46 @@ body{
 }
 /*------------about section end-------*/
 /*------------recipies section start-------*/
+.recipies{
+    padding: 30px 0;
+}
+.max-width h2{
+    text-align: center;
+    color: #444;
+    padding: 10px 0;
+
+}
+.recipies .max-width .text{
+    text-align: center;
+    padding-bottom: 20px;
+    width: 500px;
+    margin: auto;
+    
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.list .recipie-list{
+    width: 300px;
+    border-radius: 4%;
+    text-align: center;
+    padding: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.list .recipie-list img{
+   width: 100%;
+   
+}
+.description .title{
+    text-align: start;
+    color: #444;
+    padding-bottom: 5px;
+}
+.description p{
+    text-align: justify;
+    color: #444;
+}
+/*------------recipies section end-------*/
