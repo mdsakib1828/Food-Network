@@ -4,6 +4,28 @@ body{
     margin: 0;
     padding: 0;
 }
+/*-----------naviagation section start--*/
+.navbar{
+  margin: 0;
+  padding: 0;
+  background-image: url(images/shapes/Frame\ 58.jpg);
+  text-align: end;
+}
+.navbar ul li{
+list-style-type: none;
+display: inline-block;
+padding: 12px 16px;
+
+}
+.navbar ul li a{
+  text-decoration: none;
+  font-weight: 300;
+}
+.navbar ul li:hover{
+    background-color: yellow;
+}
+/*-----------naviagation section end--*/
+
 /*-----------header section start-----*/
 .row{
     display: flex;
@@ -46,15 +68,14 @@ body{
     height: 400px;
 }
 /*------------header section end-------*/
+
 /*------------about section start-------*/
 .about{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
-    padding: 0;
-
-    
+    padding: 0;    
 }
 .about .column-left{
     text-align: center;
@@ -62,12 +83,10 @@ body{
 .about .column-left img {
     width: 300px;
     height: 400px;
-
 }
 .about .column-right{
     padding-top: 90px;
-    text-align: start;
-    
+    text-align: start;    
 }
 .about .column-right h1{
     color: #444;
@@ -79,6 +98,7 @@ body{
     padding-bottom: 20px;
 }
 /*------------about section end-------*/
+
 /*------------recipies section start-------*/
 .recipies{
     padding: 30px 0;
@@ -87,35 +107,31 @@ body{
     text-align: center;
     color: #444;
     padding: 10px 0;
-
 }
 .recipies .max-width .text{
     text-align: center;
     padding-bottom: 20px;
     width: 500px;
-    margin: auto;
-    
+    margin: auto;   
 }
 .list{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap;   
 }
 .list .recipie-list{
     width: 300px;
     border-radius: 4%;
     text-align: center;
     padding: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
 }
 .list .recipie-list img{
-   width: 100%;
-   
+   width: 100%;  
 }
 .description .title{
     text-align: start;
-    color: #444;
+    color:#802d2b;
     padding-bottom: 5px;
 }
 .description p{
@@ -123,3 +139,21 @@ body{
     color: #444;
 }
 /*------------recipies section end-------*/
+.optional{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 50px;
+}
+
+/*------------footer section start-------*/
+.footer{
+    background-color: #444;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer span{
+    color: yellow;
+}
+.footer p{
+    color: #fff;
+}
+/*------------footer section end-------*/
